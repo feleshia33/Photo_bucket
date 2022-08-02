@@ -2,7 +2,7 @@ import React from 'react';
  
 const ToDo = ({todo, hangleToggle}) => {
    return (
-       <div className={todo.complete ? "strike" : ""}>
+    <div id={todo.id} key={todo.id + todo.task} name="todo" value={todo.id} className={todo.complete ? "todo strike" : "todo"}>
            {todo.task}
            
        </div>
