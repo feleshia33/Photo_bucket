@@ -27,7 +27,7 @@ function App() {
  return (
    <div className="App">
      <Header />
-     <ToDoList toDoList={toDoList}/>
+     <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter} />
    </div>
  );
 } 
