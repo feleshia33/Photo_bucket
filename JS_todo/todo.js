@@ -42,5 +42,3 @@ document.getElementById("button-one").onclick = function(){
   
   
   
-  
-  
