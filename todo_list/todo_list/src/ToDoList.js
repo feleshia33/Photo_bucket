@@ -1,18 +1,16 @@
 import React from 'react';
-// import ToDo from './ToDo';
+import ToDo from './ToDo';
 
-
-const ToDoList = ({todos}) => {
+const ToDoList = ({ toDoList, toggle }) => {
     return (
         <div>
-            {todos.map(todos => {
+            {toDoList.map(todo => {
                 return (
-                    <ToDo todos={todos} />
+                    <ToDo todo={todo} toggle={toggle}/>
                 )
             })}
         </div>
-
     );
-};  
+};
 
 export default ToDoList;
