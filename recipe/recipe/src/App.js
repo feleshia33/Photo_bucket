@@ -29,10 +29,16 @@ const App = () => {
         <button className="search-button" type="submit">Search</button>
       </form>
       {recipes.map(recipe => (
-        <Recipe title={recipe.recipe.label} calories={receipe.receipe.calories}}/>
-      ))};
+        <Recipe 
+        title={recipe.recipe.label} 
+        calories={recipe.receipe.calories}
+        image={recipe.recipe.image}
+        
+        />
+      ))}
     </div>
   );
-}
+};
+
 
 export default App;
