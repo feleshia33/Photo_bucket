@@ -5,11 +5,11 @@ const Recipe = ({title, calories, image, ingredients}) => {
     return (
         <div>
             <h1>{title}</h1>
-            <ul>    
+            <ol>    
                 {ingredients.map(ingredients => (
                     <li>{ingredients.text}</li>
                 ))}
-            </ul>
+            </ol>
             <p>{calories}</p>
             <img src={image} alt="" />
         </div>
