@@ -1,7 +1,8 @@
-
 import React, {useEffect, useState}from "react";
 import Recipe from './Recipe'
 import './App.css';
+
+/This is an app that uses an API to pull in recipes by description. Youtube video credit: Dev Ed/ 
 
 
 const App = () => {
