@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css';
 
 function App() {
+
+  const [count, setCount] = useState(4) //count is current iteration, setCount is what ever state is set next
   return (
     <div className='app'>
     <button>-</button>
