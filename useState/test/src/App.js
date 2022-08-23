@@ -6,12 +6,12 @@ function App() {
   const [count, setCount] = useState(0) //count is current iteration, setCount is what ever state is set next
   
   function decrementCount()  {
-    setCount(count - 1)
+    setCount(prevcount => prevcount - 1)
 
   }
 
   function incrementCount()  {
-    setCount(count + 1)
+    setCount(prevCount => prevCount + 1)
 
   }
   
