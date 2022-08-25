@@ -9,6 +9,7 @@ function App() {
   
   function decrementCount()  {
     setCount(prevcount => prevcount - 1)
+    //setCount is a function that takes in a parameter, "prevcount"
   }
 
   function incrementCount()  {
