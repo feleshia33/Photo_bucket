@@ -1,7 +1,7 @@
 const Header = () => {
   return (
    <header>
-        <h1>PhotoBucket App</h1>
+        <h1 style={{color: '#468A2D'}}>PhotoBucket App</h1>
    </header>
   )
 }
