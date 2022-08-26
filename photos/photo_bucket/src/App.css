@@ -1,6 +1,5 @@
 .App {
   background-color: #282c34;
-  /* #7E3A6C */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,5 +7,9 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+button {
+  margin: 5px;
 }
 

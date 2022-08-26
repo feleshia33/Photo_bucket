@@ -1,10 +1,11 @@
+import './App.css';
 import PropTypes from 'prop-types' //impr to import prop types
 
 const Search = ({query}) => {
     return (
      <div>
           <input type="text" placeholder={query} style={{color: '#468A2D'}}/>
-          <button style={{color: '#468A2D'}} >Search</button>
+          <button style={buttonStyle} >Search</button>
      </div>
     )
   }
@@ -15,6 +16,11 @@ const Search = ({query}) => {
 
   Search.propTypes = {
        query: PropTypes.string.isRequired,
+  }
+
+  const buttonStyle = {
+     color: '#7E3A6C',
+     backgroundColor:'#468A2D'
   }
   
   export default Search;
