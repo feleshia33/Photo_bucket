@@ -3,13 +3,16 @@ import PropTypes from 'prop-types' //impr to import prop types
 
 const Search = ({query}) => {
      const onClick = () => {
-          console.log("click")
+         
      }
 
     return (
      <div>
-          <input type="text" placeholder={query} style={{color: '#468A2D'}}/>
-          <button onClick = {onclick} style={buttonStyle} >Search</button>
+          <input type='text' placeholder={query} 
+          style={{color: '#468A2D'}}/>
+
+          <button text='Search' onClick = {onClick} style={buttonStyle} 
+          >Search</button>
           {/* 😊 */}
      </div>
     )
@@ -21,6 +24,7 @@ const Search = ({query}) => {
 
   Search.propTypes = {
        query: PropTypes.string.isRequired,
+       omClick: PropTypes.func,
   }
 
   const buttonStyle = {
