@@ -6,6 +6,7 @@ const Search = ({query}) => {
      <div>
           <input type="text" placeholder={query} style={{color: '#468A2D'}}/>
           <button style={buttonStyle} >Search</button>
+          {/* 😊 */}
      </div>
     )
   }
