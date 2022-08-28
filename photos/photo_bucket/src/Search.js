@@ -2,10 +2,14 @@ import './App.css';
 import PropTypes from 'prop-types' //impr to import prop types
 
 const Search = ({query}) => {
+     const onClick = () => {
+          console.log("click")
+     }
+
     return (
      <div>
           <input type="text" placeholder={query} style={{color: '#468A2D'}}/>
-          <button style={buttonStyle} >Search</button>
+          <button onClick = {onclick} style={buttonStyle} >Search</button>
           {/* 😊 */}
      </div>
     )
