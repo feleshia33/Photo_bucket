@@ -1,54 +1,55 @@
 //import React from 'react' rac shortcut
-import image_one.png from './Images/image_one'
+//import image_one.png from './Images'
 
 const images = [
 {
     id: 1,
-    image: './images/1.png',
-    text: '',
+    image: './Images/image_one.png',
+    text: ''
+    
 },
 {
     id: 2,
-    image: './images.2.png',
-    text: '',
+    image: './Images.image_two.png',
+    text: ''
 },
 {
     id: 3,
     image: '',
-    text: '',
+    text: ''
 },
 {
     id: 4,
     image: '',
-    text: '',
+    text: ''
 },
 {
     id: 5,
     image: '',
-    text: '',
+    text: ''
 },
 {
     id: 6,
     image: '',
-    text: '',
+    text: ''
 },
 {
     id: 7,
     image: '',
-    text: '',
+    text: ''
 },
 {
     id: 8,
     image: '',
-    text: '',
+    text: ''
 },{
     id: 9,
     image: '',
-    text: '',
+    text: ''
 },{
     id: 10,
     image: '',
-    text: '',
+    text: ''
 },
 ]
 
