@@ -13,7 +13,6 @@ const Search = ({query}) => {
 
           <button text='Search' onClick = {onClick} style={buttonStyle} 
           >Search</button>
-          {/* 😊 */}
      </div>
     )
   }

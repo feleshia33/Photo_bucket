@@ -1,5 +1,5 @@
 //import React from 'react' rac shortcut
-import image_one from './Images/image_one.png'
+import image_one from './Images'
 
 const images = [
 {
@@ -12,16 +12,6 @@ const images = [
     id: 2,
     image: 'image_two.png',
     text: 'Ispum lalala feed'
-},
-{
-    id: 3,
-    image: '',
-    text: ''
-},
-{
-    id: 4,
-    image: '',
-    text: ''
 }
 
 ]
@@ -29,8 +19,10 @@ const images = [
 const Images = () => {
   return (
     <>
-    {images.map((image) => (
-    <h3>{image.image}</h3>))}
+    {images.map(({key, image}) => (
+    <h3>{image.image}</h3>
+    
+    ))}
     </>
   )
 }
