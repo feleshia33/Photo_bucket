@@ -1,14 +1,15 @@
 import './App.css';
 import Header from './Header.js';
 import Search from './Search';
-import Images from './Images';
+import ImageSearch from './ImageSearch';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Search />
-      <Images />
+      <ImageSearch />
     </div>
   );
 }
