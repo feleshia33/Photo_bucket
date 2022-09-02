@@ -2,7 +2,7 @@
 
 const images = [
     {   id: 1, 
-        photo: 'image_one', 
+        photo: 'image_one.png', 
         title: 'Ispum lalala fee'
     },
     {
